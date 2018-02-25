@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/fabientownsend/Documents/projects/side/elixir_project/advisorex'
+let g:netrw_dirhist_2='/Users/fabientownsend/Documents/projects/side/elixir_project/advisorex/assets'
+let g:netrw_dirhist_3='/Users/fabientownsend/Documents/projects/side/elixir_project/advisorex/assets/css'
+let g:netrw_dirhist_4='/Users/fabientownsend/Documents/learning/phoenix/hello_phoenix/web'
+let g:netrw_dirhist_5='/Users/fabientownsend/Documents/learning/phoenix/hello_phoenix/web/controllers'
+let g:netrw_dirhist_6='/Users/fabientownsend/Project/side/star'
+let g:netrw_dirhist_7='/Users/fabientownsend/Project/side/star/views'
+let g:netrw_dirhist_8='/Users/fabientownsend/Project/side/star'
+let g:netrw_dirhist_9='/Users/fabientownsend/Project/side/star/components'
