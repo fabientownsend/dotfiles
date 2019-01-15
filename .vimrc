@@ -4,17 +4,19 @@ Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'prettier/vim-prettier'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+if executable('rg')
+  let g:ackprg = 'rg --vimgrep'
 endif
 nmap <C-s>    :Ack! "\b<cword>\b" <CR>
 
 set nocompatible
 set noswapfile
 syntax on
-colorscheme tomorrow-night
+colorscheme tomorrow-night-bright
 
 " menu bottom
 set wildmenu
